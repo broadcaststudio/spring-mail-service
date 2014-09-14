@@ -15,7 +15,7 @@ import com.icegreen.greenmail.util.ServerSetup;
  */
 public class GreenMailRule implements TestRule {
 
-  private static final int SMTP_TEST_PORT = 3025;
+  public static final int SMTP_TEST_PORT = 3025;
 
   private GreenMail greenMail;
 

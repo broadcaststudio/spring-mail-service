@@ -1,0 +1,11 @@
+spring:
+  freemarker:
+    checkTemplateLocation: false
+  services:
+    mail:
+      host: localhost
+      port: 3025
+      protocol: smtp
+      username: 
+      password: 
+  

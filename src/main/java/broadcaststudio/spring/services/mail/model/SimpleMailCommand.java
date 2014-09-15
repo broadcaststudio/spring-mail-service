@@ -2,7 +2,8 @@ package broadcaststudio.spring.services.mail.model;
 
 import java.io.Serializable;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
 /**
@@ -13,7 +14,8 @@ import lombok.ToString;
  * @since 0.0.1
  */
 @SuppressWarnings("serial")
-@Data
+@Getter
+@Setter
 @ToString
 public class SimpleMailCommand implements Serializable {
 

@@ -1,7 +1,7 @@
 package broadcaststudio.spring.services.mail.configuration;
 
-import lombok.Data;
-import lombok.ToString;
+import lombok.Getter;
+import lombok.Setter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -15,8 +15,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConfigurationProperties(prefix = "spring.services.mail")
-@Data
-@ToString
+@Getter 
+@Setter
 public class SMTPConfiguration {
 
   private String host;
